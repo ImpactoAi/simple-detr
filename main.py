@@ -5,7 +5,6 @@ from detr import DETR, draw_boxes
 import typer
 import typer
 
-
 def main(
     images_path: Path = Path("test-images"),
     backbone: str = "detr_resnet50",
